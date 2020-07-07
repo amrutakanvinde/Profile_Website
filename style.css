@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(228, 230, 241);
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    background-color: lightpink;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+#name {
+    float: left;
+}
+.nav-link {
+    color: rgb(102, 2, 2);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+#name .nav-link {
+    color: darkred;
+    font-size: 13pt;
+    font-weight: bold;
+    float: left;
+}
+#name .nav-link:hover{
+    color:rgb(71, 1, 1);
+}
+h1 {
+    font-size: 60pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url('./media/software_background.jpeg'), url('./media/paper.jpeg') center 75% no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.header-tag {
+    text-align: center;
+    color: darkred;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2 {
+      font-family: 'Times New Roman', Times, serif;
+      color: darkred;
+  }
+  .main {
+      text-align: center;
+  }
+  #about {
+      margin-top: 0;
+      display: inline-block;
+  }
+  #about-picture {
+      width: 30vm;
+      float: center;
+  }
+  #profile-pic {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 0.4em;
+      box-shadow: 2px 2px 2px black;
+  }
+  #about-content {
+      width: 40vw;
+      float: right;
+  }
+  #foot {
+      text-align: center;
+  }
+
+#resume {
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vw;
+    
+  }
+  .main-contact {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 3em;
+    background: url('./media/contact.jpeg') center 75% no-repeat fixed;
+    background-size: cover;
+}
+#contact-text {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    position: fixed;
+    float:right;
+    
+
+}
+  #name {
+      width: 50%;
+      margin-top:6px;
+
+  }
+  .contact-form {
+      padding-left: 3em;
+      height:30px;
+  }
+
+#contact-message {
+    padding-left: 3em;
+    padding-bottom: 3em;;
+}
